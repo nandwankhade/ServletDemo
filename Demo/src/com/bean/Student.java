@@ -31,4 +31,11 @@ public class Student {
 		this.name = name;
 	}
 
+	//toString method added...!
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + "]";
+	}
+
+	
 }
