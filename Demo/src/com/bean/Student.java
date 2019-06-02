@@ -4,10 +4,7 @@ public class Student {
 	private int id;
 	private String name;
 
-	public Student() {
-		super(); // optional
-	}
-
+	
 	//Contructor
 	public Student(int id, String name) {
 		super();
